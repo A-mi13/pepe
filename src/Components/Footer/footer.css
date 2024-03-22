@@ -1,3 +1,8 @@
+.footer-navbar {
+  backdrop-filter: blur(13.6px);
+    background-color: #1B1B1B !important;
+}
+
 .footer__container {
   padding: 27px 10px;
   backdrop-filter: blur(13.60px);

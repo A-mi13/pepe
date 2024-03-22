@@ -7,8 +7,8 @@ import GooglePlay from './../../img/GooglePlay.svg'
 const Footer = () => {
   return ( 
     <section className="footer">
-        <Navbar collapseOnSelect expand="md" bg="dark" variant="dark" className="footer__container navbar-dark">
-          <Container>
+        <Navbar collapseOnSelect expand="md" className="navbar-dark footer-navbar">
+          <Container className="footer__container">
             <Navbar.Brand href="/" className="footer__logo">
               <img
                 src={FooterLogoImg}

@@ -1,8 +1,12 @@
+.navbar {
+  padding: 0;
+}
+
 .header-container {
   margin-right: auto;
   margin-left: auto;
   max-width: 1322px;
-  padding: 15px 0;
+  padding: 15px 13px;
   margin-top: 15px;
   background-color: rgba(217, 217, 217, 0.05) !important;
   border-radius: 20px !important;
