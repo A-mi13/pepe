@@ -1,0 +1,242 @@
+.promo {
+  width: 100%;
+  display: flex;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-image: url('./../../img/phone.png');
+  background-size: 22vw 32vw;
+  background-position: bottom 0 left 73vw;
+  background-repeat: no-repeat;
+  z-index: 1000;
+}
+
+.promo__background-overlay {
+  position: absolute;
+  width: 30%;
+  height: 30%;
+  border-radius: 9999px;
+  filter: blur(200px);
+  z-index: -1;
+}
+
+.promo__background-overlay_blue {
+  top: 20vw;
+  right: 24vw;
+  background-color: #25A3FF;
+}
+
+.promo__background-overlay_green {
+  top: 20vw;
+  right: 12vw;
+  background-color: #95B71D;
+}
+
+.content {
+  display: flex;
+  height: 47vw;
+}
+
+.promo__left-content {
+  width: 51%;
+  position: relative;
+  margin-top: 19.8vw;
+  z-index: 10;
+}
+
+.promo__title {
+  position: relative;
+  line-height: 4.5vw;
+  color: #FFF;
+  font-size: 6.2vw;
+  font-weight: 700;
+}
+
+.promo__text {
+  max-width: 360px;
+  margin-bottom: 5vw;
+  color: #FFF;
+  font-size: 1.5vw;
+  line-height: 2vw;
+  font-weight: 100;
+}
+
+.promo__span-title {
+  position: absolute;
+  top: calc(-13vw + 38px);
+  right: -23px;
+  font-size: 12.5vw;
+  font-weight: 700;
+  opacity: 0.35;
+}
+
+.promo__right-content {
+  display: block;
+  height: 100%;
+  width: 49%;
+  /* Если требуется закруглить углы */
+  overflow: hidden;
+  /* Обрезаем все, что выходит за пределы блока */
+  background-image: url('./../../img/big_pepe.png');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.promo__content {
+  align-items: center;
+}
+
+.promo__logo-top {
+  margin-right: 35px;
+  background-color: rgba(16, 118, 0, 0.10000000149011612);
+  border-radius: 30px;
+  width: 9vw;
+  height: 9vw;
+  background-image: url('./../../img/pepe-small.png');
+  background-size: 80%;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: 1000;
+}
+
+.promo__logo-right {
+  display: none;
+  margin-right: 35px;
+  background-color: rgba(16, 118, 0, 0.10000000149011612);
+  border-radius: 30px;
+  width: 25vw;
+  height: 25vw;
+  background-image: url('./../../img/pepe-small.png');
+  background-size: 80%;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: 1000;
+}
+
+.promo__link {
+  padding-top: 2px;
+}
+
+.promo__link-title {
+  display: inline-block;
+  margin: 0;
+  max-width: 171px;
+  color: #FFF;
+  font-size: clamp(1.2vw, 1.6vw, 2vw);
+  line-height: 40px;
+  font-weight: 700;
+}
+
+.promo__link-descr {
+  max-width: 387px;
+  color: #FFF;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.img-button {
+  cursor: pointer;
+  width: calc(6vw + 35px);
+}
+
+
+.promo__img-link:not(:last-child) {
+  margin-right: 15px;
+}
+
+.promo__img-link:hover img,
+.promo__img-link:focus img,
+.promo__img-link:active img {
+  transform: scale(1.1);
+}
+
+@media (max-width: 1200px) {
+  .promo__content {
+    align-items: center;
+  }
+
+  .promo__right-content {
+    display: block;
+  }
+
+}
+
+@media (max-width: 768px) {
+
+  .promo {
+    background-position: bottom 0 left 71vw;
+  
+  }
+
+  .promo__container {
+    max-width: 720px;
+    padding: 0 30px;
+  }
+
+  .content {
+    height: auto;
+    align-items: center;
+    justify-content: flex-start;
+  }
+
+  .promo__left-content {
+    margin-top: 150px;
+  }
+
+  .promo__title {
+    font-size: 7vw;
+  }
+
+  .promo__text {
+    margin-bottom: auto;
+    font-size: 2.5vw;
+  }
+
+  .promo__link-descr {
+    margin-bottom: auto;
+  }
+
+  .promo__span-title {
+    top: calc(-17vw + 20px);
+    right: -10px;
+  }
+
+  .promo__right-content {
+    display: none;
+  }
+
+  .promo__content {
+    align-items: start;
+    flex-direction: column;
+  }
+
+  
+  .promo__link-title {
+    font-size: 3vw;
+    line-height: 15px;
+  }
+
+  .promo__link-descr {
+    margin-bottom: 10px;
+    font-size: 10px;
+    line-height: 12px;
+  }
+
+  .promo__logo-top {
+    display: none;
+  }
+
+  .promo__logo-right {
+    display: block;
+    margin-top: 20vw;
+  }
+
+  .promo__img-link:not(:last-child) {
+    margin-right: 5px;
+}
+
+  .img-button {
+    width: calc(9vw + 35px);
+  }
+}

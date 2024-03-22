@@ -1,0 +1,92 @@
+.airdrop {
+  background-image: url('./../../img/blur_token.png'), url('./../../img/opacity_hand3.svg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-size: 20% 70%, 4vw 4vw;
+  background-position: top 3vw right 35vw, top 1.5vw right 13.5vw;
+}
+
+.span-airdrop__title {
+  position: absolute;
+  top: -76px;
+  left: calc(13vw + 30px);
+  font-size: clamp(4.2vw, 12vw, 12vw);
+  font-weight: 700;
+  opacity: 0.4;
+}
+
+.airdrop__left {
+  padding-top: 8.2vw;
+  width: 44%;
+  position: relative;
+  margin-right: 11vw;
+}
+
+.airdrop__title {
+  position: relative;
+  margin-bottom: 7px;
+  max-width: 405px;
+  line-height: 4.5vw;
+  color: #FFF;
+  font-size: 3.7vw;
+  font-weight: 700;
+  z-index: 2;
+}
+
+.airdrop__descr {
+  padding-left: 4px;
+  max-width: 470px;
+  color: #FFF;
+  font-size: clamp(0.5vw, 1vw, 1.2vw);
+  font-weight: 300;
+  line-height: 1.26vw;
+}
+
+.airdrop__right {
+  padding-top: 20px;
+  width: 49%;
+  z-index: 2;
+}
+
+.airdrop__right img {
+  width: 26vw;
+}
+
+@media (max-width: 768px) {
+  .airdrop {
+    margin-bottom: 50px;
+    background-size: 20% 70%, 11vw 11vw;
+    background-position: top 3vw right 20vw, top 1.5vw right 2vw;
+  }
+  .airdrop__container {
+    max-width: 720px;
+    padding: 0 30px;
+  }
+
+  .span-airdrop__title {
+    top: -18px;
+  }
+
+  .airdrop__descr {
+    font-size: 2vw;
+    line-height: 8px;
+  }
+
+  
+  .airdrop__left {
+    margin-right: auto;
+  }
+
+  .airdrop__right {
+    padding-top: 0;
+    width: 29%;
+  }
+
+  .airdrop__right img {
+    width: 21vw;
+  }
+
+  .airdrop__content {
+    align-items: center;
+  }
+}

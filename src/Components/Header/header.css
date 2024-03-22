@@ -1,0 +1,102 @@
+.header-container {
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 1322px;
+  padding: 15px 0;
+  margin-top: 15px;
+  background-color: rgba(217, 217, 217, 0.05) !important;
+  border-radius: 20px !important;
+  backdrop-filter: blur(133.60px);
+  border-radius: 20px;
+  z-index: 100000;
+}
+
+.link {
+  padding-left: 10px !important;
+  padding-right: 10px !important;
+  color: #FFF;
+  font-size: 16px;
+  font-weight: 400;
+  align-items: center;
+}
+
+.header-button-add {
+  padding: 10px 50px;
+  background-color: #95B71D;
+  border-radius: 8.33px;
+  border: none;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.header-button-add:hover,
+.header-button-add:active,
+.header-button-add:focus {
+  background-color: #88a318;
+  border-color: #88a318;
+  transform: scale(1.05);
+}
+
+
+.promo-img {
+  height: 100%;
+  background-image: url('./../../img/blur_phone.png');
+  background-size: 100% 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.navbar-nav {
+  column-gap: 32px;
+}
+
+.header__logo:hover img,
+.header__logo:focus img,
+.header__logo:active img {
+  transform: scale(1.1);
+}
+
+.navbar .nav-link:focus,
+.navbar .nav-link:active {
+  outline: none !important;
+  border: none !important;
+}
+
+.nav-link:hover,
+.nav-link:focus,
+.nav-link:active {
+  border: none !important;
+  outline: none !important;
+  transform: scale(1.1);
+}
+
+@media (max-width: 1380px) {
+  .header-container {
+    max-width: 1024px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .header-container {
+    max-width: 820px;
+  }
+}
+
+
+@media (max-width: 992px) {
+  .header-container {
+    max-width: 720px;
+    padding: 10px 30px;
+  }
+
+  .navbar-nav {
+    column-gap: 6px;
+  }
+}
+
+@media (max-width: 768px) {
+
+  .header-container {
+    margin-top: 0;
+  }
+}

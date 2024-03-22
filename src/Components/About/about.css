@@ -1,0 +1,105 @@
+.about {
+  padding-top: 8.7vw;
+  padding-left: 14vw;
+  position: relative;
+  height: auto;
+  padding-bottom: 115px;
+  background-image: url('./../../img/opacity_hand.svg'),url('./../../img/opacity_hand2.svg'),url('./../../img/opacity_hand3.svg') ;
+  background-repeat: no-repeat;
+  background-size: 5vw 5vw, 5vw 5vw, 4vw 4vw;
+  background-position: top 5vw left 7vw, bottom 1vw left 13vw, top 8vw left 38vw;
+}
+
+.about__right {
+  margin-left: 40.6%;
+}
+
+.about__bg {
+  position: absolute;
+  top: 4.3vw;
+  left: 14%;
+  height: 100%;
+  width: 32%;
+  background-image: url('./../../img/Mask.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  z-index: 0;
+}
+
+.about__left {
+  padding-top: 18px;
+  margin-right: 305px;
+  max-width: 17%;
+}
+
+.about__title {
+  margin-bottom: 15px;
+  position: relative;
+  line-height: 4.5vw;
+  color: #FFF;
+  font-size: 2.4vw; /* Пример использования vw для размера текста */
+  font-weight: 700;
+}
+
+.about__descr {
+  max-width: 75%;
+  color: #FFF;
+  font-size: 1vw; /* Пример использования vw для размера текста */
+  font-weight: 300;
+  line-height: 1.2vw;
+}
+
+.about__title-span {
+  position: absolute;
+  top: -40px;
+  left: calc(6vw + 30px);
+  font-size: clamp(4.2vw, 6.2vw, 8.2vw);
+  font-weight: 700;
+  opacity: 0.35;
+}
+
+@media (max-width: 992px) {
+  .about__bg {
+    top: 2.3vw;
+    left: 10%;
+  }
+}
+
+@media (max-width: 768px) {
+  .about {
+    margin-bottom: 50px;
+    padding-top: 3.3vw;
+    padding-left: 0;
+    padding-bottom: 0;
+    background-size: 8vw 8vw, 10vw 10vw, 11vw 11vw;
+    background-position: top 0 left 4vw, bottom 12vw left 35vw, top 0 right 10vw;
+  }
+
+  .about__container {
+    max-width: 720px;
+    padding: 0 30px;
+  }
+
+  .about__bg {
+    display: none;
+  }
+
+  .about__right {
+    margin-left: 0;
+  }
+
+  .about__title {
+    font-size: 5vw;
+  }
+
+  .about__title-span {
+    top: -10px;
+  }
+
+  .about__descr {
+    max-width: 100%;
+    line-height: 14px;
+    font-size: 2.5vw;
+  }
+
+}
