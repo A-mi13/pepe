@@ -74,9 +74,7 @@
   display: block;
   height: 100%;
   width: 49%;
-  /* Если требуется закруглить углы */
   overflow: hidden;
-  /* Обрезаем все, что выходит за пределы блока */
   background-image: url('./../../img/big_pepe.png');
   background-size: contain;
   background-position: center;

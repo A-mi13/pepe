@@ -117,7 +117,7 @@
   
   .input-blocks {
     width: 100%;
-    flex-direction: column; /* Изменяем направление flex на столбец */
+    flex-direction: column; 
   }
   
   .input-block {

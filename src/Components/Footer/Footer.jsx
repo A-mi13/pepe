@@ -22,9 +22,9 @@ const Footer = () => {
             <Navbar.Collapse id='responsive-navbar-nav' className='footer__collapse' >
               <div className="flex ms-auto footer__nav">
                 <Nav >
-                  <Nav.Link className='ms-auto footer__link' href="/">ГЛАВНАЯ</Nav.Link>
-                  <Nav.Link className='ms-auto footer__link' href="#about">О НАС</Nav.Link>
-                  <Nav.Link className='ms-auto footer__link' href="#tokenomics">ТОКЕНОМИКА</Nav.Link>
+                  <Nav.Link className='ms-auto footer__link' href="/">HOME</Nav.Link>
+                  <Nav.Link className='ms-auto footer__link' href="#about">ABOUT US</Nav.Link>
+                  <Nav.Link className='ms-auto footer__link' href="#tokenomics">TOKENOMICS</Nav.Link>
                 </Nav>
                 <p className="footer__copyright">&copy; 2023 PEPE WALLET • All Rights Reserved</p>
               </div>

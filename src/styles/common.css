@@ -8,10 +8,10 @@ body {
   background-position: top 16vw right 0;
 }
 
-*:hover, 
-*:active,
-*:focus,
-*:focus-visible {
+*:hover a, 
+*:active a,
+*:focus a,
+*:focus-visible a {
   border: none !important;
   outline: none !important;
 }

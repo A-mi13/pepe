@@ -58,9 +58,9 @@ const handleScrollRight = () => {
       behavior: 'smooth',
     });
     setScrollPosition(container.scrollLeft + 300);
-    // Проверяем, достигнут ли максимальный скролл вправо
+    
     if (container.scrollLeft + container.clientWidth >= container.scrollWidth) {
-      // Если достигнут, скрываем кнопку handleScrollRight
+      
       const rightButton = document.querySelector('.company__scroll-btn.right');
       if (rightButton) {
         rightButton.style.display = 'none';
